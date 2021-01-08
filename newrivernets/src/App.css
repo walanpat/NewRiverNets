@@ -1,0 +1,19 @@
+.AppWrapper{
+  display: flex;
+  flex-direction: row;
+  height: auto;
+
+}
+.SideBar{
+display: flex;
+border-right: 5px solid red;
+flex-direction: column;
+height: 100%;
+}
+.App {
+display:flex;
+flex-direction: column;
+}
+
+
+
