@@ -1,19 +1,31 @@
-.AppWrapper{
+.AppWrapper {
   display: flex;
   flex-direction: row;
   height: auto;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding-top: 1px;
+}
+.SideBar {
+  display: flex;
+  border-right: 5px solid black;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start;
+  text-align: left;
+  margin-right: 1%;
+  min-height: 99vh;
+}
+.TitleBlockWrapper{
+  display: flex;
+  flex-direction: column;
+
+  border-bottom:5px solid black;
+  min-width: 100vh;
 
 }
-.SideBar{
-display: flex;
-border-right: 5px solid red;
-flex-direction: column;
-height: 100%;
-}
+
 .App {
-display:flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-
-
-
