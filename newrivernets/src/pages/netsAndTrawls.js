@@ -114,9 +114,6 @@ const NetsAndTrawls = () => {
         Nylon (dipped): $500 used
       </p>
       <br />
-      <br />
-      <br />
-      <br />
       <h3>Shrimp Trawls</h3>
       <p>
         These trawls are of 6, 7, or 9 twine of poly or nylon and are hung on
@@ -129,11 +126,70 @@ const NetsAndTrawls = () => {
         attach everything and a recreational fisherman's pink float for the
         tailbag (if applicable) - everything you need to hook up to your boat.
       </p>
+      <h4>Brown Shrimp Trawls</h4>
+      <div className='FlexGrid'>
+        <div style={{ marginRight: '10%' }}>
+          <strong>Size</strong>
+          <p>10ft</p>
+          <p>15ft</p>
+          <p>20ft</p>
+          <p>26ft</p>
+          <p>30ft</p>
+          <p>35ft</p>
+        </div>
+        <div style={{ marginRight: '10%' }}>
+          <strong>Trawl Only</strong>
+          <p>$160.00</p>
+          <p>$240.00</p>
+          <p>$320.00</p>
+          <p>$416.00</p>
+          <p>$480.00</p>
+          <p>$560.00</p>
+        </div>
+        <div>
+          <strong>Complete Trawl</strong>
+          <p>$280.00</p>
+          <p>$420.00</p>
+          <p>$560.00</p>
+          <p>$728.00</p>
+          <p>$840.00</p>
+          <p>$980.00</p>
+        </div>
+      </div>
+      <h4>White Shrimp Trawls</h4>
+      <div className='FlexGrid'>
+        <div style={{ marginRight: '10%' }}>
+          <strong>Size</strong>
+          <p>10ft</p>
+          <p>15ft</p>
+          <p>20ft</p>
+          <p>26ft</p>
+          <p>30ft</p>
+          <p>35ft</p>
+        </div>
+        <div style={{ marginRight: '10%' }}>
+          <strong>Trawl Only</strong>
+          <p>$180.00</p>
+          <p>$270.00</p>
+          <p>$360.00</p>
+          <p>$468.00</p>
+          <p>$540.00</p>
+          <p>$630.00</p>
+        </div>
+        <div>
+          <strong>Complete Trawl</strong>
+          <p>$300.00</p>
+          <p>$450.00</p>
+          <p>$600.00</p>
+          <p>$780.00</p>
+          <p>$900.00</p>
+          <p>$1050.00</p>
+        </div>
+      </div>
       <p>
         ----------------------------------------------------------------------------------------------
       </p>
     </div>
-    
   );
 };
 
