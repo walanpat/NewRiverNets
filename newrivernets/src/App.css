@@ -16,16 +16,32 @@
   margin-right: 1%;
   min-height: 99vh;
 }
-.TitleBlockWrapper{
+.TitleBlockWrapper {
   display: flex;
   flex-direction: column;
 
-  border-bottom:5px solid black;
+  border-bottom: 5px solid black;
   min-width: 100vh;
-
 }
+.FlexWrapper {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vh;
+  
+}
+.FlexGrid{
+  display:flex;
+  flex-direction:row;
+  min-width:100vh;
+}
+
 
 .App {
   display: flex;
   flex-direction: column;
+}
+
+.TwoColumns {
+  display: flex;
+  flex-direction: row;
 }

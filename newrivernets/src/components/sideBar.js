@@ -3,26 +3,32 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 const SideBar = () => {
   return (
     <div className='SideBar'>
-      <div style={{ marginRight: '5%' }}>
+      <div style={{ marginRight: '7%' }}>
         <ul>
-          <p>Home</p>
-          <p>Contact Us</p>
-          <p>Specials</p>
-          <p>Nets and Trawls</p>
-          <p>Trawl Doors and Steel</p>
-          <p>Webbing and Netting</p>
-          <p>Floats and Lead</p>
-          <p>Twine</p>
-          <p>Rope and Cable</p>
-          <p>Hardware</p>
-          <p>Shellfish Gear</p>
-          <p>Knives</p>
-          <p>Wearables</p>
-          <p>Deck Gear</p>
-          <p>Boat Stuff</p>
-          <p>Safety</p>
-          <p>Trailers & Parts</p>
-          <p> Links</p>
+          <Link to ='/'><p>Home</p></Link>
+          <Link to='/contact'>
+            <p>Contact Us</p>
+          </Link>
+          <Link to='/products/specials'>
+            <p>Specials</p>
+          </Link>
+          <Link to='/products/netsandtrawls'>
+            <p>Nets and Trawls</p>
+          </Link>
+          <Link to='/products/trawldoorsandsteel'><p>Trawl Doors and Steel</p></Link>
+          <Link to='/products/webbingandnetting'><p>Webbing and Netting</p></Link>
+          <Link to='/products/floatsandleads'><p>Floats and Lead</p></Link>
+          <Link to='/products/twine'><p>Twine</p></Link>
+          <Link to='/products/ropeandcable'><p>Rope and Cable</p></Link>
+          <Link to='/products/hardware'><p>Hardware</p></Link>
+          <Link to='/products/shellfishgear'> <p>Shellfish Gear</p></Link>
+          <Link to='/products/knives'><p>Knives</p></Link>
+          <Link to='/products/wearable'><p>Wearables</p></Link>
+          <Link to='/products/deckgear'><p>Deck Gear</p></Link>
+          <Link to='/products/boatstuff'><p>Boat Stuff</p></Link>
+          <Link to='/products/safety'><p>Safety</p></Link>
+          <Link to='/products/trailersandparks'><p>Trailers & Parts</p></Link>
+          <Link to='/links'><p> Links</p></Link>
         </ul>
       </div>
     </div>

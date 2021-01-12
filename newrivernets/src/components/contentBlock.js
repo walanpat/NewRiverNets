@@ -1,6 +1,6 @@
 const ContentBlock = () => {
     return (
-      <div className='TitleBlockWrapper'>
+      <div className='FlexWrapper'>
         
       </div>
     );
