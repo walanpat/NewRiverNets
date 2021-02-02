@@ -8,6 +8,7 @@ import Specials from '../src/pages/specials';
 import NetsAndTrawls from '../src/pages/netsAndTrawls';
 import WebbingAndNettingBlock from '../src/pages/webbingAndNetting';
 import TrawlDoorsAndSteelBlock from '../src/pages/trawlDoorsAndSteel';
+import FloatsAndLeadsBlock from '../src/pages/floatsAndLead';
 
 function App() {
   return (
@@ -38,7 +39,7 @@ function App() {
             <Route
               path='/products/floatsandleads'
               exact
-              component={<div></div>}
+              component={FloatsAndLeadsBlock}
             />
             <Route path='/products/twine' exact component={<div></div>} />
             <Route
