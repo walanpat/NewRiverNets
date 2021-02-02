@@ -7,6 +7,7 @@ import ContactUs from '../src/pages/contactUs';
 import Specials from '../src/pages/specials';
 import NetsAndTrawls from '../src/pages/netsAndTrawls';
 import WebbingAndNettingBlock from '../src/pages/webbingAndNetting';
+import TrawlDoorsAndSteelBlock from '../src/pages/trawlDoorsAndSteel';
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
             <Route
               path='/products/trawldoorsandsteel'
               exact
-              component={<div></div>}
+              component={TrawlDoorsAndSteelBlock}
             />
             <Route
               path='/products/webbingandnetting'
