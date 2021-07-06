@@ -9,6 +9,8 @@ import NetsAndTrawls from '../src/pages/netsAndTrawls';
 import WebbingAndNettingBlock from '../src/pages/webbingAndNetting';
 import TrawlDoorsAndSteelBlock from '../src/pages/trawlDoorsAndSteel';
 import FloatsAndLeadsBlock from '../src/pages/floatsAndLead';
+import TwineBlock from './pages/twine';
+import RopeAndCableBlock from './pages/ropeAndCable';
 
 function App() {
   return (
@@ -41,11 +43,11 @@ function App() {
               exact
               component={FloatsAndLeadsBlock}
             />
-            <Route path='/products/twine' exact component={<div></div>} />
+            <Route path='/products/twine' exact component={TwineBlock} />
             <Route
               path='/products/ropeandcable'
               exact
-              component={<div></div>}
+              component={RopeAndCableBlock}
             />
             <Route path='/products/hardware' exact component={<div></div>} />
             <Route
